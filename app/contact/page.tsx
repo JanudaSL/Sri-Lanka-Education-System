@@ -57,7 +57,7 @@ export default function Contact() {
               <Mail className="w-8 h-8 text-orange-600" />
             </div>
             <h3 className="text-xl font-bold text-gray-800 mb-2">Email</h3>
-            <p className="text-gray-600">madushani@email.com</p>
+            <p className="text-gray-600">ahmadushani1991@gmail.com</p>
             <a href="mailto:madushani@email.com" className="text-orange-600 hover:text-orange-700 font-semibold mt-3 inline-block">
               Send Email →
             </a>
@@ -68,7 +68,7 @@ export default function Contact() {
               <Phone className="w-8 h-8 text-orange-600" />
             </div>
             <h3 className="text-xl font-bold text-gray-800 mb-2">Phone</h3>
-            <p className="text-gray-600">+94 (0)76 123 4567</p>
+            <p className="text-gray-600">+94 770798464</p>
             <a href="tel:+94761234567" className="text-orange-600 hover:text-orange-700 font-semibold mt-3 inline-block">
               Call Now →
             </a>
@@ -186,11 +186,7 @@ export default function Contact() {
         <div className="mt-12 grid md:grid-cols-2 gap-8">
           <div className="bg-gradient-to-br from-orange-50 to-orange-100 rounded-2xl p-8">
             <h3 className="text-2xl font-bold text-gray-900 mb-4">Office Hours</h3>
-            <div className="space-y-2 text-gray-700">
-              <p><span className="font-semibold">Monday - Friday:</span> 8:00 AM - 5:00 PM</p>
-              <p><span className="font-semibold">Saturday:</span> 10:00 AM - 2:00 PM</p>
-              <p><span className="font-semibold">Sunday:</span> Closed</p>
-            </div>
+            
           </div>
 
           <div className="bg-gradient-to-br from-blue-50 to-blue-100 rounded-2xl p-8">

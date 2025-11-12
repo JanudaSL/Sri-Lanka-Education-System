@@ -55,14 +55,14 @@ export default function Footer() {
             <nav>
               <ul className="space-y-3">
                 {[
-                  'About Ministry',
-                  'Contact Us',
+                  'About',
+                  'Contact',
                   'FAQs',
                   'Site Map'
                 ].map((item) => (
                   <li key={item}>
                     <a 
-                      href="#" 
+                      href="/about" 
                       className="flex items-center space-x-2 hover:text-blue-300 transition-colors group"
                     >
                       <span className="text-blue-400 group-hover:translate-x-1 transition-transform">›</span>
@@ -82,7 +82,7 @@ export default function Footer() {
                 <Phone className="w-5 h-5 text-blue-400 mt-1 flex-shrink-0" />
                 <div>
                   <p className="text-sm text-blue-200">Hotline</p>
-                  <p className="font-semibold group-hover:text-blue-300 transition-colors">+94 11 269 5301</p>
+                  <p className="font-semibold group-hover:text-blue-300 transition-colors">+94 770798464</p>
                 </div>
               </div>
 
@@ -90,7 +90,7 @@ export default function Footer() {
                 <Mail className="w-5 h-5 text-blue-400 mt-1 flex-shrink-0" />
                 <div>
                   <p className="text-sm text-blue-200">Email</p>
-                  <p className="font-semibold group-hover:text-blue-300 transition-colors break-all">info@moe.gov.lk</p>
+                  <p className="font-semibold group-hover:text-blue-300 transition-colors break-all">ahmadushani1991@gmail.com</p>
                 </div>
               </div>
 
@@ -99,7 +99,7 @@ export default function Footer() {
                 <div>
                   <p className="text-sm text-blue-200">Address</p>
                   <p className="font-semibold group-hover:text-blue-300 transition-colors">
-                    Isurupaya, Battaramulla<br />
+                    Hambantota<br />
                     Sri Lanka
                   </p>
                 </div>
@@ -111,7 +111,7 @@ export default function Footer() {
 
         {/* Copyright */}
         <div className="mt-12 pt-6 border-t border-blue-800 text-center text-sm text-blue-200">
-          <p>© {currentYear} Ministry of Education, Sri Lanka. All Rights Reserved.</p>
+          <p>© {currentYear} Sri Lanka Education System, Sri Lanka. All Rights Reserved.</p>
           <p className="mt-2">
             Designed and Developed by:{' '}
             <a 

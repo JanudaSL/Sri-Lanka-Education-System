@@ -108,7 +108,7 @@ export default function About() {
             <div className="text-center">
               <h3 className="text-2xl md:text-3xl font-bold text-gray-800">A.H. Madushani</h3>
               <p className="text-orange-600 font-semibold text-lg mt-2">Teacher of English</p>
-              <p className="text-gray-500 text-sm mt-1">ID: BS22E60643</p>
+              <p className="text-gray-500 text-sm mt-1">RN: BS22E60643</p>
             </div>
           </div>
         </div>

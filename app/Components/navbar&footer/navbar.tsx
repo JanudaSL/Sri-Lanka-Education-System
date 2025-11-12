@@ -105,12 +105,7 @@ export default function Navbar() {
               ))}
 
               {/* CTA Button */}
-              <Link
-                href="/resources"
-                className="ml-2 lg:ml-4 px-4 lg:px-6 py-2 bg-gradient-to-r from-blue-900 to-blue-700 text-white text-sm lg:text-base font-semibold rounded-lg hover:from-blue-800 hover:to-blue-600 transition-all duration-300 shadow-md hover:shadow-lg transform hover:-translate-y-0.5"
-              >
-                Resources
-              </Link>
+              
             </div>
 
             {/* Mobile Menu Button */}
